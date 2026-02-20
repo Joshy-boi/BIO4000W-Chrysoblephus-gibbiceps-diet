@@ -1,0 +1,281 @@
+FishIDnumber,sample_year,sample_month ,total_length,fork_length,weighed_fish,sex,Preserved stomach mass (g),Empty stomach mass (g),Stomach contents (g),Phylum,Lowest classification,#,mass (g)
+1/12#1,2012,February,593,512,4145,M,23.4,14.0,9.3,Echinoderm,Ophiuroidea,9,4.3
+1/12#1,2012,February,593,512,4145,M,23.4,14.0,9.3,Echinoderm,Amphipholis squamata,1,1.1
+1/12#1,2012,February,593,512,4145,M,23.4,14.0,9.3,Echinoderm,Holothuroidea,1,0.8
+11/10#10,2010,November,476,409,1944,M,14.4,9.2,4.9,Echinoderm,Ophiuroidea,2,3.9
+11/10#10,2010,November,476,409,1944,M,14.4,9.2,4.9,Mollusc,Polyplacophora,1,1.2
+11/10#2,2010,November,382,330,1136,M,7.3,6.7,0.6,Crustacean,Decapoda,1,0.4
+11/10#2,2010,November,382,330,1136,M,7.3,6.7,0.6,Annelida,Polychaeta,1,0.2
+11/10#3,2010,November,447,386,1788,F,18.3,12.8,4.6,Mollusc,Gastropoda,1,4.1
+11/10#3,2010,November,447,386,1788,F,18.3,12.8,4.6,Crustacean,Decapoda,1,0.9
+11/10#4,2010,November,454,387,1744,F,16.7,12,4.5,Echinoderm,Ophiuroidea,6,4.5
+11/10#7,2010,November,362,311,910,M,9.2,5.2,4.1,Echinoderm,Ophiuroidea,3,1.2
+11/10#8,2010,November,448,386,1788,M,14.5,9.7,4.7,Echinoderm,Ophiuroidea,4,4.7
+11/10#9,2010,November,293,254,562,F,5.4,3,2.3,Echinoderm,Ophiuroidea,3,1.7
+11/10#9,2010,November,293,254,562,F,5.4,3,2.3,Annelida,Polychaeta,1,0.6
+13/10#1,2010,November,297,254,546,F,6.4,4.3,1.9,Echinoderm,Ophiuroidea,6,1.3
+14/10#1,2010,November,561,492,3818,F,37.3,29.8,6.9,Echinoderm,Tropiometra carinata,2,6.9
+14/10#2,2010,November,510,442,2754,F,24.5,18.9,5.1,Mollusc,Venus verrucosa,1,4.4
+14/10#2,2010,November,510,442,2754,F,24.5,18.9,5.1,Echinoderm,Tropiometra carinata,1,0.4
+14/10#2,2010,November,510,442,2754,F,24.5,18.9,5.1,Echinoderm,Ophiuroidea,1,0.1
+14/10#2,2010,November,510,442,2754,F,24.5,18.9,5.1,Crustacean,Decapoda,1,0.1
+14/10#3,2010,November,609,535,4142,F,46.4,22.9,22.7,Echinoderm,Tropiometra carinata,2,17.7
+14/10#3,2010,November,609,535,4142,F,46.4,22.9,22.7,Crustacean,Anomura,1,3.5
+14/10#5,2010,November,434,372,1578,M,14.6,12.5,1.8,Echinoderm,Tropiometra carinata,2,1.3
+14/10#7,2010,November,359,305,966,M,10.8,7.2,3.6,Echinoderm,Ophiuroidea,3,1.9
+14/10#7,2010,November,359,305,966,M,10.8,7.2,3.6,Echinoderm,Ophiuroidea,2,1.5
+2/12#1,2012,February,561,479,3203,M,19.0,10.5,8.5,Echinoderm,Ophiuroidea,6,8.5
+2/12#2,2012,February,536,465,2793,F,11.2,10.7,0.5,Echinoderm,Parechinus angulosus,1,0.5
+2/12#3,2012,February,431,368,1528,F,9.9,7.9,2.0,Echinoderm,Tropiometra carinata,1,1.6
+2/12#3,2012,February,431,368,1528,F,9.9,7.9,2.0,Mollusc,Gastropoda,1,0.4
+2/12#4,2012,February,320,280,726,H,6.2,4.1,2.1,Mollusc,Bivalvia,1,0.4
+2/12#7,2012,February,189,165,141,M,1.6,1.2,0.4,Annelida,Polychaeta,1,0.4
+3/11#2,2011,May,355,302,834,F,6.3,6.0,0.3,Crustacean,Decapoda,2,0.3
+3/12#2,2012,February,299,269,527,F,5.1,3.4,1.7,Crustacean,Crustacea,1,1.7
+3/12#5,2012,February,194,170,143,M,1.0,0.9,0.1,Crustacean,Crustacea,1,0.1
+4/12#1,2012,February,310,268,609,M,6.6,5.2,1.4,Crustacean,Crustacea,1,1.4
+9/10#1,2010,November,451,385,1812,F,3.7,3.2,0.5,Echinoderm,Ophiuroidea,4,0.5
+RS001,2010,September,436,367,1703,M,13.9,7.6,5.7,Echinoderm,Ophiuroidea,8,5.4
+RS001,2010,September,436,367,1703,M,13.9,7.6,5.7,Mollusc,Bivalvia,1,0.3
+RS004,2010,September,488,425,2387,M,19,10.5,8.5,Echinoderm,Ophiuroidea,5,5.2
+RS004,2010,September,488,425,2387,M,19,10.5,8.5,Annelida,Polychaeta,1,1.2
+RS004,2010,September,488,425,2387,M,19,10.5,8.5,Mollusc,Mollusca,1,1
+RS004,2010,September,488,425,2387,M,19,10.5,8.5,Crustacean,Crustacea,1,0.4
+RS005,2010,September,511,443,2679,F,13.5,11.3,1.7,Echinoderm,Ophiuroidea,3,1
+RS005,2010,September,511,443,2679,F,13.5,11.3,1.7,Annelida,Polychaeta,1,0.2
+RS007,2010,September,416,354,1378,F,9.1,4.7,3.7,Crustacean,Brachyura,1,1.6
+RS007,2010,September,416,354,1378,F,9.1,4.7,3.7,Echinoderm,Ophiuroidea,2,1.5
+RS007,2010,September,416,354,1378,F,9.1,4.7,3.7,Mollusc,Bivalvia,1,0.5
+RS008,2010,September,413,350,1394,F,9.7,6.5,2.8,Echinoderm,Ophiuroidea,11,2.5
+RS008,2010,September,413,350,1394,F,9.7,6.5,2.8,Mollusc,Bivalvia,1,0.3
+RS009,2010,September,451,384,1850,F,15.4,10.1,5.3,Echinoderm,Ophiuroidea,5,4.7
+RS010,2010,September,451,391,1840,M,9.9,8,1.3,Echinoderm,Ophiuroidea,5,0.9
+RS010,2010,September,451,391,1840,M,9.9,8,1.3,Crustacean,Brachyura,1,0.2
+RS010,2010,September,451,391,1840,M,9.9,8,1.3,Crustacean,Crustacea,1,0.1
+RS012,2010,October,306,266,598,M,5.2,3,2.2,Echinoderm,Ophiuroidea,3,1.7
+RS012,2010,October,306,266,598,M,5.2,3,2.2,Mollusc,Bivalvia,1,0.3
+RS014,2010,October,469,404,2118,M,8.5,6.6,1.9,Echinoderm,Ophiuroidea,3,1.9
+RS015,2010,October,453,385,1753,M,7.8,5.3,2.4,Echinoderm,Ophiuroidea,2,1.6
+RS015,2010,October,453,385,1753,M,7.8,5.3,2.4,Echinoderm,Tropiometra carinata,1,0.4
+RS015,2010,October,453,385,1753,M,7.8,5.3,2.4,Crustacean,Decapoda,1,0.4
+RS028,2010,October,468,403,1873,M,29.1,13.2,15.7,Echinoderm,Ophiuroidea,2,2
+RS030,2010,October,379,326,1014,M,8.2,6.4,1.8,Echinoderm,Ophiuroidea,3,2.6
+RS030,2010,October,379,326,1014,M,8.2,6.4,1.8,Crustacean,Crustacea,3,0.2
+RS032,2010,October,339,293,817,M,4.1,3.2,0.9,Echinoderm,Ophiuroidea,1,0.9
+RS035,2010,October,295,257,519,F,3.9,3,0.9,Echinoderm,Ophiuroidea,5,0.9
+RS040,2010,December,359,307,963,F,4.3,3.7,0.6,Mollusc,Bivalvia,1,0.6
+RS041,2010,December,412,353,1380,M,7.2,5.2,2,Echinoderm,Ophiuroidea,4,1.4
+RS041,2010,December,412,353,1380,M,7.2,5.2,2,Mollusc,Gastropoda,1,0.4
+RS041,2010,December,412,353,1380,M,7.2,5.2,2,Crustacean,Decapoda,1,0.2
+RS044,2010,December,400,345,1146,F,12.3,7.3,5,Echinoderm,Ophiuroidea,3,3.4
+RS045,2010,December,584,511,3890,M,17.4,16.1,1.1,Echinoderm,Ophiuroidea,2,1.1
+RS046,2010,December,585,503,3460,M,13.7,12.1,1.3,Crustacean,Anomura,1,1.3
+RS047,2010,December,387,332,1065,M,10.7,8.2,2.4,Echinoderm,Ophiuroidea,1,0.3
+RS050,2011,January,450,389,1879,M,11.2,9.2,2,Echinoderm,Ophiuroidea,5,2
+RS056,2011,January,402,349,1312,M,9.7,8.1,1.6,Echinoderm,Ophiuroidea,4,0.7
+RS056,2011,January,402,349,1312,M,9.7,8.1,1.6,Crustacean,Cirripedia,1,0.4
+RS056,2011,January,402,349,1312,M,9.7,8.1,1.6,Mollusc,Bivalvia,1,0.2
+RS058,2011,January,479,410,2022,M,13.5,10.7,2.6,Echinoderm,Tropiometra carinata,1,2.6
+RS059,2011,January,,385,1667,M,11.7,10.7,0.6,Mollusc,Polyplacophora,1,0.6
+RS060,2011,January,,358,1287,M,17.6,10.3,7.1,Mollusc,Gastropoda,1,0.6
+RS060,2011,January,,358,1287,M,17.6,10.3,7.1,Echinoderm,Ophiuroidea,1,0.4
+RS063,2011,January,377,324,1055,M,7.2,6,1.2,Echinoderm,Tropiometra carinata,1,1.2
+RS064,2011,January,399,341,1134,F,8.4,6.7,1.5,Echinoderm,Ophiuroidea,8,1.3
+RS065,2011,January,372,320,1044,M,9.4,6.2,3.2,Echinoderm,Ophiuroidea,3,0.5
+RS066,2011,January,310,266,636,M,4.6,4.1,0.4,Crustacean,Anomura,2,0.4
+RS068,2011,January,471,400,1997,M,14.1,10,4.1,Echinoderm,Ophiuroidea,13,3.5
+RS068,2011,January,471,400,1997,M,14.1,10,4.1,Mollusc,Polyplacophora,1,0.6
+RS069,2011,January,379,325,1084,M,6.3,5.3,0.8,Echinoderm,Ophiuroidea,6,0.8
+RS072,2011,January,337,285,744,M,6.8,4.8,2,Echinoderm,Ophiuroidea,5,2
+RS074,2011,February,392,347,1186,F,8.0,6.0,2.0,Mollusc,Gastropoda,1,0.1
+RS074,2011,February,392,347,1186,F,8.0,6.0,2.0,Echinoderm,Ophiuroidea,1,0.1
+RS075,2011,February,551,473,3010,M,28.8,16.8,11.6,Chordata,Ascidiacea,2,6.5
+RS075,2011,February,551,473,3010,M,28.8,16.8,11.6,Echinoderm,Ophiuroidea,3,4.1
+RS075,2011,February,551,473,3010,M,28.8,16.8,11.6,Mollusc,Mollusca,1,1.3
+RS076,2011,February,480,414,2100,M,12.4,8.6,3.6,Echinoderm,Ophiuroidea,2,1.8
+RS076,2011,February,480,414,2100,M,12.4,8.6,3.6,Mollusc,Mollusca,1,1.1
+RS076,2011,February,480,414,2100,M,12.4,8.6,3.6,Annelida,Polychaeta,1,0.5
+RS077,2011,February,650,565,4850,M,45.1,21.6,23.1,Echinoderm,Ophiuroidea,5,13.3
+RS077,2011,February,650,565,4850,M,45.1,21.6,23.1,Mollusc,Mollusca,1,2
+RS078,2011,February,494,425,2160,M,21.1,15,5.4,Echinoderm,Ophiuroidea,6,5.2
+RS078,2011,February,494,425,2160,M,21.1,15,5.4,Mollusc,Gastropoda,1,0.1
+RS079,2011,February,476,412,2080,M,23.3,14,8.9,Echinoderm,Ophiuroidea,5,8.9
+RS080,2011,February,438,377,1474,F,11.9,9.3,2.2,Mollusc,Gastropoda,6,1.6
+RS080,2011,February,438,377,1474,F,11.9,9.3,2.2,Echinoderm,Ophiuroidea,1,0.6
+RS081,2011,February,523,456,2692,M,17.3,14.3,2.7,Echinoderm,Ophiuroidea,1,1.4
+RS081,2011,February,523,456,2692,M,17.3,14.3,2.7,Mollusc,Gastropoda,1,0.7
+RS081,2011,February,523,456,2692,M,17.3,14.3,2.7,Crustacean,Decapoda,1,0.6
+RS083,2011,February,483,416,2150,M,22.3,14.3,7.7,Echinoderm,Ophiuroidea,6,3.2
+RS083,2011,February,483,416,2150,M,22.3,14.3,7.7,Annelida,Polychaeta,3,2.8
+RS083,2011,February,483,416,2150,M,22.3,14.3,7.7,Mollusc,Mollusca,1,1.7
+RS084,2011,February,489,418,2409,M,15,9.4,5.3,Crustacean,Decapoda,2,2.4
+RS084,2011,February,489,418,2409,M,15,9.4,5.3,Echinoderm,Ophiuroidea,1,1.4
+RS084,2011,February,489,418,2409,M,15,9.4,5.3,Mollusc,Gastropoda,2,1
+RS084,2011,February,489,418,2409,M,15,9.4,5.3,Mollusc,Bivalvia,1,0.5
+RS086,2011,February,454,389,1686,M,18.8,13.6,4.5,Echinoderm,Ophiuroidea,3,3.4
+RS086,2011,February,454,389,1686,M,18.8,13.6,4.5,Mollusc,Gastropoda,3,0.7
+RS086,2011,February,454,389,1686,M,18.8,13.6,4.5,Mollusc,Haliotis parva,1,0.5
+RS086,2011,February,454,389,1686,M,18.8,13.6,4.5,Crustacean,Decapoda,1,0.1
+RS087,2011,February,530,460,2475,M,19.3,14.4,4.6,Mollusc,Mollusca,1,2
+RS087,2011,February,530,460,2475,M,19.3,14.4,4.6,Annelida,Polychaeta,1,1.3
+RS087,2011,February,530,460,2475,M,19.3,14.4,4.6,Echinoderm,Amphiura capensis,2,1.2
+RS088,2011,February,482,395,2001,M,18.2,11.6,6.2,Echinoderm,Ophiuroidea,1,1.8
+RS089,2011,February,452,388,1817,F,14.3,11.6,2.3,Echinoderm,Ophiuroidea,1,1.1
+RS089,2011,February,452,388,1817,F,14.3,11.6,2.3,Crustacean,Brachyura,1,0.8
+RS089,2011,February,452,388,1817,F,14.3,11.6,2.3,Echinoderm,Parechinus angulosus,2,0.3
+RS091,2011,February,504,430,2228,M,15.7,10.3,5.1,Echinoderm,Parechinus angulosus,1,1.4
+RS091,2011,February,504,430,2228,M,15.7,10.3,5.1,Echinoderm,Ophiuroidea,1,1.3
+RS091,2011,February,504,430,2228,M,15.7,10.3,5.1,Annelida,Polychaeta,2,1.2
+RS091,2011,February,504,430,2228,M,15.7,10.3,5.1,Annelida,Arabella iricolor,2,1.1
+RS092,2011,February,489,421,2125,M,26,12,13.5,Echinoderm,Ophiuroidea,8,7.8
+RS092,2011,February,489,421,2125,M,26,12,13.5,Annelida,Polychaeta,3,5.6
+RS093,2011,February,425,361,1353,F,11.8,9.9,1.9,Annelida,Polychaeta,1,1.1
+RS093,2011,February,425,361,1353,F,11.8,9.9,1.9,Echinoderm,Amphiura capensis,1,0.8
+RS094,2011,February,379,325,1078,F,12.8,6.9,5.6,Echinoderm,Ophiuroidea,6,5.6
+RS096,2011,February,503,430,2345,F,23.7,15,7.5,Annelida,Eunice aphroditois,1,5.7
+RS096,2011,February,503,430,2345,F,23.7,15,7.5,Echinoderm,Ophiuroidea,3,1.6
+RS097,2011,February,601,527,2921,M,37.6,21.7,15.5,Mollusc,Venus verrucosa,1,7.9
+RS097,2011,February,601,527,2921,M,37.6,21.7,15.5,Annelida,Polychaeta,2,2.8
+RS097,2011,February,601,527,2921,M,37.6,21.7,15.5,Echinoderm,Ophiuroidea,6,2.6
+RS097,2011,February,601,527,2921,M,37.6,21.7,15.5,Crustacean,Brachyura,1,1.9
+RS099,2011,February,461,390,1823,F,18.1,12,5.8,Crustacean,Decapoda,1,5.3
+RS099,2011,February,461,390,1823,F,18.1,12,5.8,Echinoderm,Parechinus angulosus,1,0.5
+RS100,2011,February,549,472,2675,M,25.9,15.3,10.4,Echinoderm,Ophiuroidea,5,10.5
+RS100,2011,February,549,472,2675,M,25.9,15.3,10.4,Echinoderm,Marthasterias glacialis,1,9.3
+RS100,2011,February,549,472,2675,M,25.9,15.3,10.4,Echinoderm,Ophiuroidea,10,6.8
+RS100,2011,February,549,472,2675,M,25.9,15.3,10.4,Crustacean,Decapoda,1,1.9
+RS100,2011,February,549,472,2675,M,25.9,15.3,10.4,Echinoderm,Parechinus angulosus,1,1.4
+RS101,2011,February,483,421,2144,M,36.7,14.1,22.2,Annelida,Polychaeta,2,1.2
+RS101,2011,February,483,421,2144,M,36.7,14.1,22.2,Mollusc,Polyplacophora,1,0.5
+RS101,2011,February,483,421,2144,M,36.7,14.1,22.2,Mollusc,Haliotis parva,1,0.2
+RS102,2011,February,398,342,1188,F,12.8,6.8,5.7,Mollusc,Mollusca,1,4.2
+RS102,2011,February,398,342,1188,F,12.8,6.8,5.7,Echinoderm,Ophiuroidea,2,0.9
+RS102,2011,February,398,342,1188,F,12.8,6.8,5.7,Annelida,Polychaeta,1,0.3
+RS103,2011,February,,457,2482,M,15.7,13.5,2.6,Mollusc,Gastropoda,1,1.5
+RS103,2011,February,,457,2482,M,15.7,13.5,2.6,Echinoderm,Ophiuroidea,1,0.8
+RS103,2011,February,,457,2482,M,15.7,13.5,2.6,Echinoderm,Parechinus angulosus,1,0.2
+RS103,2011,February,,457,2482,M,15.7,13.5,2.6,Annelida,Polychaeta,1,0.1
+RS104,2011,February,396,344,1179,M,16.3,6.2,9.8,Mollusc,Bivalvia,1,6
+RS104,2011,February,396,344,1179,M,16.3,6.2,9.8,Echinoderm,Ophiuroidea,1,3.8
+RS108,2011,March,498,425,2338,F,18.6,15.9,3,Echinoderm,Parechinus angulosus,1,3
+RS109,2011,March,531,455,2700,M,14.7,14.2,0.3,Mollusc,Bivalvia,1,0.3
+RS111,2011,March,,410,1925,M,15.8,12.7,2.7,Mollusc,Gastropoda,1,1
+RS111,2011,March,,410,1925,M,15.8,12.7,2.7,Annelida,Polychaeta,1,0.8
+RS111,2011,March,,410,1925,M,15.8,12.7,2.7,Echinoderm,Ophiuroidea,2,0.7
+RS111,2011,March,,410,1925,M,15.8,12.7,2.7,Echinoderm,Henricia ornata,1,0.3
+RS115,2011,April,459,392,1845,F,11.4,8.8,2.5,Mollusc,Gastropoda,1,2.5
+RS116,2011,April,534,467,2789,M,34.9,19.8,14.3,Echinoderm,Ophiuroidea,4,11
+RS116,2011,April,534,467,2789,M,34.9,19.8,14.3,Annelida,Eunice aphroditois,1,1.2
+RS116,2011,April,534,467,2789,M,34.9,19.8,14.3,Echinoderm,Ophiuroidea,1,1.7
+RS118,2011,April,347,291,810,F,7.1,5.8,1.2,Mollusc,Gastropoda,2,0.8
+RS118,2011,April,347,291,810,F,7.1,5.8,1.2,Mollusc,Talochlamys multistriata,1,0.4
+RS120,2011,May,542,467,3400,M,16.2,11.2,5.1,Echinoderm,Ophiuroidea,6,1.2
+RS120,2011,May,542,467,3400,M,16.2,11.2,5.1,Echinoderm,Parechinus angulosus,1,0.9
+RS120,2011,May,542,467,3400,M,16.2,11.2,5.1,Annelida,Polychaeta,1,0.9
+RS120,2011,May,542,467,3400,M,16.2,11.2,5.1,Echinoderm,Holothuroidea,1,0.5
+RS120,2011,May,542,467,3400,M,16.2,11.2,5.1,Echinoderm,Amphipholis squamata,1,0.1
+RS121,2011,May,602,538,4200,M,36.2,18.6,16.8,Chordata,Ascidiacea,2,16.8
+RS122,2011,June,575,495,3658,M,33.8,15.2,18.6,Crustacean,Brachyura,2,8.2
+RS122,2011,June,575,495,3658,M,33.8,15.2,18.6,Echinoderm,Ophiuroidea,9,5.7
+RS122,2011,June,575,495,3658,M,33.8,15.2,18.6,Mollusc,Chaetopleura pertusa,1,4
+RS124,2011,June,610,521,4396,M,29.2,21.3,8.0,Mollusc,Gastropoda,3,8
+RS125,2011,June,479,412,2261,F,20.2,11.7,8.5,Mollusc,Gastropoda,6,4.9
+RS125,2011,June,479,412,2261,F,20.2,11.7,8.5,Echinoderm,Ophiuroidea,1,2
+RS125,2011,June,479,412,2261,F,20.2,11.7,8.5,Echinoderm,Ophiuroidea,3,1.2
+RS126,2011,June,455,398,1925,M,25.6,15.8,8.2,Crustacean,Dromidia hirsutissima,1,7.1
+RS126,2011,June,455,398,1925,M,25.6,15.8,8.2,Echinoderm,Ophiuroidea,1,2.1
+RS127,2011,June,416,357,1444,F,14.0,12.3,1.5,Crustacean,Crustacea,1,1.5
+RS129,2011,June,395,341,1216,F,14.0,11.5,2.5,Echinoderm,Ophiuroidea,3,2.5
+RS130,2011,June,401,342,1199,M,19.3,8.2,11.2,Echinoderm,Ophiuroidea,8,10.4
+RS130,2011,June,401,342,1199,M,19.3,8.2,11.2,Echinoderm,Tropiometra carinata,1,0.8
+RS131,2011,June,386,335,1136,M,11.2,7.1,4.1,Echinoderm,Ophiuroidea,2,4.1
+RS132,2011,June,350,310,921,M,7.4,5.3,2.1,Echinoderm,Ophiuroidea,2,1.7
+RS132,2011,June,350,310,921,M,7.4,5.3,2.1,Mollusc,Gastropoda,1,0.4
+RS133,2011,June,362,310,907,F,10.6,7.8,2.7,Echinoderm,Ophiuroidea,2,2.4
+RS133,2011,June,362,310,907,F,10.6,7.8,2.7,Mollusc,Talochlamys multistriata,1,0.3
+RS135,2011,June,354,302,861,M,8.1,5.5,2.6,Echinoderm,Ophiuroidea,3,2.6
+RS136,2011,June,293,256,571,F,3.7,3.5,0.3,Mollusc,Bivalvia,1,0.3
+RS137,2011,June,307,268,647,M,3.1,2.1,1.0,Crustacean,Crustacea,1,0.3
+RS137,2011,June,307,268,647,M,3.1,2.1,1.0,Echinoderm,Ophiuroidea,2,0.1
+RS137,2011,June,307,268,647,M,3.1,2.1,1.0,Crustacean,Amphipoda,1,0.1
+RS139,2011,June,337,289,779,M,12.7,6.6,6.3,Echinoderm,Ophiuroidea,4,6.3
+RS140,2011,June,340,287,759,M,5.4,4.9,0.5,Echinoderm,Ophiuroidea,2,0.5
+RS141,2011,July,438,396,1896,F,27.1,11.1,15.5,Crustacean,Brachyura,1,3.6
+RS141,2011,July,438,396,1896,F,27.1,11.1,15.5,Mollusc,Gastropoda,1,2.1
+RS141,2011,July,438,396,1896,F,27.1,11.1,15.5,Mollusc,Talochlamys multistriata,1,0.2
+RS142,2011,July,384,330,1214,F,12.2,7.8,4.4,Mollusc,Gastropoda,1,2.3
+RS142,2011,July,384,330,1214,F,12.2,7.8,4.4,Crustacean,Crustacea,2,1.4
+RS143,2011,July,335,288,761,M,12.3,6.8,5.5,Echinoderm,Ophiuroidea,3,2.5
+RS143,2011,July,335,288,761,M,12.3,6.8,5.5,Crustacean,Crustacea,1,2
+RS144,2011,July,450,385,1849,F,15.6,11.9,3.7,Echinoderm,Ophiuroidea,2,3.7
+RS145,2011,July,,384,1822,M,17.8,8.6,9.2,Echinoderm,Ophiuroidea,10,9.2
+RS146,2011,July,412,361,1501,F,18.3,9.4,8.9,Echinoderm,Ophiuroidea,5,8.9
+RS147,2011,July,427,371,1630,M,31.7,10.0,21.7,Echinoderm,Ophiuroidea,14,19.4
+RS147,2011,July,427,371,1630,M,31.7,10.0,21.7,Echinoderm,Tropiometra carinata,1,2.3
+RS148,2011,July,415,357,1406,M,8.5,6.4,2.1,Mollusc,Gastropoda,1,0.8
+RS148,2011,July,415,357,1406,M,8.5,6.4,2.1,Annelida,Polychaeta,1,0.5
+RS149,2011,July,392,337,1332,M,17.1,7.2,9.9,Echinoderm,Ophiuroidea,8,9.9
+RS150,2011,July,411,353,1251,M,11.8,8.3,3.5,Echinoderm,Ophiuroidea,4,3.5
+RS151,2011,July,395,333,1213,M,14.4,7.5,6.9,Echinoderm,Ophiuroidea,3,6.9
+RS152,2011,July,387,334,1226,M,13.4,7.1,6.5,Echinoderm,Ophiuroidea,6,6.5
+RS153,2011,July,375,325,1136,M,14.7,6.8,7.8,Echinoderm,Ophiuroidea,7,7.8
+RS154,2011,July,393,343,1246,M,7.1,4.4,2.5,Echinoderm,Ophiuroidea,2,2.5
+RS156,2011,July,393,337,1219,M,11.9,7.3,4.0,Echinoderm,Ophiuroidea,2,2.1
+RS156,2011,July,393,337,1219,M,11.9,7.3,4.0,Crustacean,Anomura,1,1.4
+RS158,2011,July,379,325,984,M,6.5,5.9,0.4,Mollusc,Bivalvia,1,0.4
+RS160,2011,July,371,320,975,M,9.3,4.4,4.9,Echinoderm,Ophiuroidea,4,4.9
+RS162,2011,July,361,307,944,M,7.2,5.3,,Mollusc,Bivalvia,1,1.7
+RS163,2011,July,356,300,898,M,14.2,6.6,7.5,Echinoderm,Ophiuroidea,4,7.5
+RS164,2011,July,365,312,978,M,9.9,6.8,3.2,Echinoderm,Ophiuroidea,5,3.2
+RS165,2011,July,357,305,846,M,9.9,4.7,5.2,Crustacean,Dromidia hirsutissima,1,5.2
+RS166,2011,July,346,295,843,F,6.9,4.9,2.0,Echinoderm,Ophiuroidea,3,2
+RS167,2011,July,353,304,802,M,12.2,5.8,6.2,Echinoderm,Ophiuroidea,4,6.2
+RS169,2011,July,331,290,749,M,7.6,4.0,3.6,Chordata,Ascidiacea,1,2
+RS169,2011,July,331,290,749,M,7.6,4.0,3.6,Echinoderm,Ophiuroidea,1,1.4
+RS170,2011,July,329,285,682,M,12.0,4.9,6.8,Echinoderm,Ophiuroidea,6,6.8
+RS172,2011,July,311,265,650,M,8.6,5.2,3.4,Echinoderm,Ophiuroidea,1,3.4
+RS173,2011,August,561,487,3097,F,20.1,19.2,0.9,Echinoderm,Ophiuroidea,1,0.9
+RS174,2011,August,519,446,2789,F,27.5,14.1,13.4,Echinoderm,Ophiuroidea,10,13.4
+RS176,2011,August,495,432,2250,M,14.4,10.6,3.8,Echinoderm,Ophiuroidea,12,2.8
+RS176,2011,August,495,432,2250,M,14.4,10.6,3.8,Mollusc,Gastropoda,1,1
+RS178,2011,August,518,447,2626,M,18.8,14.0,4.8,Echinoderm,Amphipholis squamata,1,1.8
+RS178,2011,August,518,447,2626,M,18.8,14.0,4.8,Echinoderm,Ophiuroidea,2,1.3
+RS178,2011,August,518,447,2626,M,18.8,14.0,4.8,Echinoderm,Ophiuroidea,2,1.2
+RS180,2011,September,448,393,1597,M,21.5,9.5,11.9,Echinoderm,Ophiuroidea,16,11.1
+RS180,2011,September,448,393,1597,M,21.5,9.5,11.9,Annelida,Polychaeta,1,0.8
+RS182,2011,September,531,463,2901,M,17.3,15.6,1.7,Crustacean,Decapoda,1,0.4
+RS182,2011,September,531,463,2901,M,17.3,15.6,1.7,Echinoderm,Ophiuroidea,1,0.3
+RS183,2011,September,556,473,3085,M,32.0,15.7,16.3,Mollusc,Gastropoda,6,7.4
+RS183,2011,September,556,473,3085,M,32.0,15.7,16.3,Echinoderm,Parechinus angulosus,2,2.2
+RS183,2011,September,556,473,3085,M,32.0,15.7,16.3,Echinoderm,Ophiuroidea,3,1.2
+RS183,2011,September,556,473,3085,M,32.0,15.7,16.3,Crustacean,Decapoda,2,0.5
+RS183,2011,September,556,473,3085,M,32.0,15.7,16.3,Annelida,Polychaeta,1,0.4
+RS184,2011,September,521,450,2745,F,35.0,12.0,23.0,Echinoderm,Parechinus angulosus,5,6.3
+RS184,2011,September,521,450,2745,F,35.0,12.0,23.0,Mollusc,Gastropoda,3,6.2
+RS184,2011,September,521,450,2745,F,35.0,12.0,23.0,Crustacean,Decapoda,2,2.4
+RS184,2011,September,521,450,2745,F,35.0,12.0,23.0,Echinoderm,Ophiuroidea,2,2
+RS184,2011,September,521,450,2745,F,35.0,12.0,23.0,Echinoderm,Amphipholis squamata,1,1.5
+RS184,2011,September,521,450,2745,F,35.0,12.0,23.0,Echinoderm,Parvulastra exigua,1,0.8
+RS185,2011,September,558,484,3141,F,54.2,21.0,33.2,Annelida,Polychaeta,2,3.4
+RS185,2011,September,558,484,3141,F,54.2,21.0,33.2,Echinoderm,Parechinus angulosus,11,8.8
+RS185,2011,September,558,484,3141,F,54.2,21.0,33.2,Echinoderm,Ophiuroidea,6,12
+RS185,2011,September,558,484,3141,F,54.2,21.0,33.2,Mollusc,Gastropoda,9,4.4
+RS185,2011,September,558,484,3141,F,54.2,21.0,33.2,Mollusc,Chaetopleura pertusa,1,2.3
+RS185,2011,September,558,484,3141,F,54.2,21.0,33.2,Crustacean,Crustacea,1,0.4
+RS185,2011,September,558,484,3141,F,54.2,21.0,33.2,Crustacean,Decapoda,1,0.6
+RS186,2011,December,348,345,1294,F,9.6,7.0,2.6,Echinoderm,Ophiuroidea,2,1.9
+RS187,2011,December,453,389,1872,M,14.5,7.8,6.7,Echinoderm,Ophiuroidea,8,3.9
+RS187,2011,December,453,389,1872,M,14.5,7.8,6.7,Annelida,Polychaeta,1,1.7
+RS187,2011,December,453,389,1872,M,14.5,7.8,6.7,Mollusc,Gastropoda,1,1.7
+RS188,2011,December,527,462,2669,M,16.1,14.7,1.4,Crustacean,Crustacea,1,0.6
+RS190,2011,December,475,411,1960,M,13.0,12.3,0.7,Mollusc,Gastropoda,1,0.7
+RS194,2011,December,428,365,1395,M,7.9,6.6,1.3,Echinoderm,Tropiometra carinata,1,1.3
+RS196,2011,December,660,600,5481,M,38.0,19.2,18.6,Mollusc,Gastropoda,1,12.3
+RS196,2011,December,660,600,5481,M,38.0,19.2,18.6,Echinoderm,Tropiometra carinata,1,6.3
+RS198,2011,December,438,375,1580,M,15.8,9.6,6.2,Mollusc,Bivalvia,15,6.2
+RS199,2012,January,405,359,1346,F,9.2,6.8,2.4,Mollusc,Gastropoda,4,0.8
+RS200,2012,January,252,219,349,F,3.4,3.0,0.4,Mollusc,Gastropoda,1,0.4
+RS202,2012,February,437,378,1708,F,10.9,8.5,2.4,Echinoderm,Ophiuroidea,1,1.6
+RS202,2012,February,437,378,1708,F,10.9,8.5,2.4,Echinoderm,Parvulastra exigua,1,0.8
+RS235,2012,July,455,414,2023,M,31.1,7.6,23.5,Mollusc,Philine aperta,2,2.5
+,,,,,,,,,,,,,
