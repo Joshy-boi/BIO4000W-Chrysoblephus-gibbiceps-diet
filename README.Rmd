@@ -11,12 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
+# meta data- who got the data, where the scripts are, different folders put in picture too. multiple figures- do multiple code chunks 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
+```{r Red Stumpnose, echo= FALSE, out.width="60%", include=TRUE, fig.align='center', fig.cap='A male Red stumpnose (Chrysoblephus gibbiceps).Distinctive bulbous forehead and red bands clearly visible.'}
+knitr::include_graphics('images/chrysoblephus gibbiceps pic.jpg')
 ```
 
 ## Including Plots
