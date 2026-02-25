@@ -29,7 +29,9 @@ cleaned_data %>%
   summarise_all(~sum(is.na(.))) %>% 
   print()
 
+#writing out the above cleaned data set to its own file 
 
+write_csv(cleaned_data, here("Data", "cleaned_ChrysoblephusDiet.csv"))
 
 
 #going to use slecet to create a subset of the 3 variables of interest and

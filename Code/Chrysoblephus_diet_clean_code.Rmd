@@ -13,26 +13,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Data wrangling and brief analysis of Chrysoblephus gibbiceps diet data
 
-This document contains the code used in **Chrysoblephus_diet_raw_script** but was made to present the reasoning behind the code used and results in a more palatable and descriptive format. Some code outputs have been hidden for a neater layout, to view these outputs please refer to **Chrysoblephus_diet_raw_script**.  <br><br><br>
+This document contains the code used in **Chrysoblephus_diet_raw_script** but was made to present the reasoning behind the code used and results in a more palatable and descriptive format. Please refer to **Chrysoblephus_diet_raw_script** if you wish to view the code by itself.  <br><br><br>
 
 First I loaded the required packages.These were installed via the **install.R** file.  
 
 
-```{r loading packages, echo=TRUE, results='hide'}
+```{r loading packages, echo=TRUE}
 library(tidyverse) 
 library(dplyr)
 library(ggplot2)
+library(here)
 
 ```
 
 The second step was to read in the data (CSV format) then view it to check for obvious errors and that it was in tidy format. 
 
-```{r reading in data and viewing, echo=TRUE, results='hide'}
+```{r reading in data and viewing, echo=TRUE}
 #Reading in data as a CSV
-data_raw<-read_csv("Data/ChrysoblephusDiet.csv")
+data_raw<-read_csv(here("Data","ChrysoblephusDiet.csv"))
 
 #looking at raw data 
-data_raw 
+head(data_raw )
+
 ```
 
 After viewing the raw data, it is clear that it is in tidy format already; each variable forms a column, each observation forms a row and each cell is a single measurement. To view the raw data itself and an explanation of its contents please refer to my **Data** folder. 
@@ -44,7 +46,8 @@ Although my data were tidy, I spotted a missing value and so decided to scan for
 #scanning for missing values
 data_raw %>%
   summarise_all(~sum(is.na(.))) %>% 
-  View()
+  print()
+
 ```
 
 The above code revealed multiple missing values across a range of columns, which could complicate  analysis. Therefore the next step was to remove them:
@@ -53,27 +56,30 @@ The above code revealed multiple missing values across a range of columns, which
 #removing missing values
 cleaned_data <- data_raw %>% 
   drop_na() %>%
-  view()
+  print()
+
 ```
 
-The missing values were removed successfully and the raw data was transferred to "cleaned_data". The cleaned data-frame with no missing values is accessible in my **Data** folder. To check if the above code was successful I used the following code:
+The missing values were removed successfully and the raw data was transferred to "cleaned_data". The cleaned data-frame with no missing values is accessible in my **Data** folder (as "cleaned_ChrysoblephusDiet"). To check if the above code was successful I used the following code:
 
 ```{r checking if all the missing values were removed}
 #Checking if the above worked 
 cleaned_data %>%
   summarise_all(~sum(is.na(.))) %>% 
-  View()
+  print()
+
 ```
 
 Once the missing values were removed, the data were ready for analysis. However I was only interested in the relationships between fish body mass and empty stomach mass and fish body mass and stomach content mass (all measured in Grams). Therefore I created a new tibble of a subset of those three variables (stomach_data).
 
-```{r subsetting data set to 3 variables of interest,echo=TRUE, results='hide' }
+```{r subsetting data set to 3 variables of interest,echo=TRUE }
 stomach_data <- cleaned_data %>%
   select(
     `weighed_fish`, `Empty stomach mass (g)`, `Stomach contents (g)`)
 
 #viewing new tibble
 stomach_data
+
 ```
 
 

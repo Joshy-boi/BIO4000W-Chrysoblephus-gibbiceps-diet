@@ -10,9 +10,8 @@ Joshua Dwyer-Thiem
 This document contains the code used in
 **Chrysoblephus_diet_raw_script** but was made to present the reasoning
 behind the code used and results in a more palatable and descriptive
-format. Some code outputs have been hidden for a neater layout, to view
-these outputs please refer to **Chrysoblephus_diet_raw_script**.
-<br><br><br>
+format. Please refer to **Chrysoblephus_diet_raw_script** if you wish to
+view the code by itself. <br><br><br>
 
 First I loaded the required packages.These were installed via the
 **install.R** file.
@@ -35,14 +34,17 @@ library(tidyverse)
 ``` r
 library(dplyr)
 library(ggplot2)
+library(here)
 ```
+
+    ## here() starts at C:/Users/miket/Downloads/BIO4000W_GIT/BIO4000W-Chrysoblephus-breviceps-diet
 
 The second step was to read in the data (CSV format) then view it to
 check for obvious errors and that it was in tidy format.
 
 ``` r
 #Reading in data as a CSV
-data_raw<-read_csv("Data/ChrysoblephusDiet.csv")
+data_raw<-read_csv(here("Data","ChrysoblephusDiet.csv"))
 ```
 
     ## Rows: 280 Columns: 14
@@ -56,8 +58,21 @@ data_raw<-read_csv("Data/ChrysoblephusDiet.csv")
 
 ``` r
 #looking at raw data 
-data_raw 
+head(data_raw )
 ```
+
+    ## # A tibble: 6 × 14
+    ##   FishIDnumber sample_year sample_month total_length fork_length weighed_fish
+    ##   <chr>              <dbl> <chr>               <dbl>       <dbl>        <dbl>
+    ## 1 1/12#1              2012 February              593         512         4145
+    ## 2 1/12#1              2012 February              593         512         4145
+    ## 3 1/12#1              2012 February              593         512         4145
+    ## 4 11/10#10            2010 November              476         409         1944
+    ## 5 11/10#10            2010 November              476         409         1944
+    ## 6 11/10#2             2010 November              382         330         1136
+    ## # ℹ 8 more variables: sex <chr>, `Preserved stomach mass (g)` <dbl>,
+    ## #   `Empty stomach mass (g)` <dbl>, `Stomach contents (g)` <dbl>, Phylum <chr>,
+    ## #   `Lowest classification` <chr>, `#` <dbl>, `mass (g)` <dbl>
 
 After viewing the raw data, it is clear that it is in tidy format
 already; each variable forms a column, each observation forms a row and
@@ -71,8 +86,16 @@ scan for more.
 #scanning for missing values
 data_raw %>%
   summarise_all(~sum(is.na(.))) %>% 
-  View()
+  print()
 ```
+
+    ## # A tibble: 1 × 14
+    ##   FishIDnumber sample_year sample_month total_length fork_length weighed_fish
+    ##          <int>       <int>        <int>        <int>       <int>        <int>
+    ## 1            1           1            1           13           1            1
+    ## # ℹ 8 more variables: sex <int>, `Preserved stomach mass (g)` <int>,
+    ## #   `Empty stomach mass (g)` <int>, `Stomach contents (g)` <int>, Phylum <int>,
+    ## #   `Lowest classification` <int>, `#` <int>, `mass (g)` <int>
 
 The above code revealed multiple missing values across a range of
 columns, which could complicate analysis. Therefore the next step was to
@@ -82,20 +105,47 @@ remove them:
 #removing missing values
 cleaned_data <- data_raw %>% 
   drop_na() %>%
-  view()
+  print()
 ```
+
+    ## # A tibble: 266 × 14
+    ##    FishIDnumber sample_year sample_month total_length fork_length weighed_fish
+    ##    <chr>              <dbl> <chr>               <dbl>       <dbl>        <dbl>
+    ##  1 1/12#1              2012 February              593         512         4145
+    ##  2 1/12#1              2012 February              593         512         4145
+    ##  3 1/12#1              2012 February              593         512         4145
+    ##  4 11/10#10            2010 November              476         409         1944
+    ##  5 11/10#10            2010 November              476         409         1944
+    ##  6 11/10#2             2010 November              382         330         1136
+    ##  7 11/10#2             2010 November              382         330         1136
+    ##  8 11/10#3             2010 November              447         386         1788
+    ##  9 11/10#3             2010 November              447         386         1788
+    ## 10 11/10#4             2010 November              454         387         1744
+    ## # ℹ 256 more rows
+    ## # ℹ 8 more variables: sex <chr>, `Preserved stomach mass (g)` <dbl>,
+    ## #   `Empty stomach mass (g)` <dbl>, `Stomach contents (g)` <dbl>, Phylum <chr>,
+    ## #   `Lowest classification` <chr>, `#` <dbl>, `mass (g)` <dbl>
 
 The missing values were removed successfully and the raw data was
 transferred to “cleaned_data”. The cleaned data-frame with no missing
-values is accessible in my **Data** folder. To check if the above code
-was successful I used the following code:
+values is accessible in my **Data** folder (as
+“cleaned_ChrysoblephusDiet”). To check if the above code was successful
+I used the following code:
 
 ``` r
 #Checking if the above worked 
 cleaned_data %>%
   summarise_all(~sum(is.na(.))) %>% 
-  View()
+  print()
 ```
+
+    ## # A tibble: 1 × 14
+    ##   FishIDnumber sample_year sample_month total_length fork_length weighed_fish
+    ##          <int>       <int>        <int>        <int>       <int>        <int>
+    ## 1            0           0            0            0           0            0
+    ## # ℹ 8 more variables: sex <int>, `Preserved stomach mass (g)` <int>,
+    ## #   `Empty stomach mass (g)` <int>, `Stomach contents (g)` <int>, Phylum <int>,
+    ## #   `Lowest classification` <int>, `#` <int>, `mass (g)` <int>
 
 Once the missing values were removed, the data were ready for analysis.
 However I was only interested in the relationships between fish body
@@ -111,6 +161,21 @@ stomach_data <- cleaned_data %>%
 #viewing new tibble
 stomach_data
 ```
+
+    ## # A tibble: 266 × 3
+    ##    weighed_fish `Empty stomach mass (g)` `Stomach contents (g)`
+    ##           <dbl>                    <dbl>                  <dbl>
+    ##  1         4145                     14                      9.3
+    ##  2         4145                     14                      9.3
+    ##  3         4145                     14                      9.3
+    ##  4         1944                      9.2                    4.9
+    ##  5         1944                      9.2                    4.9
+    ##  6         1136                      6.7                    0.6
+    ##  7         1136                      6.7                    0.6
+    ##  8         1788                     12.8                    4.6
+    ##  9         1788                     12.8                    4.6
+    ## 10         1744                     12                      4.5
+    ## # ℹ 256 more rows
 
 Once I had my new tibble of body mass, empty stomach mass and stomach
 content mass, I planned to create two linear model scatter plots. But
