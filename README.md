@@ -5,6 +5,9 @@ Joshua Dwyer-Thiem
 
 ## R Markdown
 
+
+https://hub.2i2c.mybinder.org/user/joshy-boi-bio40--gibbiceps-diet-740o5e3l/lab
+
 # meta data- who got the data, where the scripts are, different folders put in picture too. multiple figures- do multiple code chunks
 
 This is an R Markdown document. Markdown is a simple formatting syntax
