@@ -6,7 +6,8 @@ Joshua Dwyer-Thiem
 ## R Markdown
 
 
-https://hub.2i2c.mybinder.org/user/joshy-boi-bio40--gibbiceps-diet-740o5e3l/lab
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Joshy-boi/BIO4000W-Chrysoblephus-gibbiceps-diet/HEAD)
+
 
 # meta data- who got the data, where the scripts are, different folders put in picture too. multiple figures- do multiple code chunks
 
