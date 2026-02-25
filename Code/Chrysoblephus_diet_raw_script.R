@@ -1,8 +1,9 @@
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
+library(here)
 #Reading in data as a CSV
-data_raw<-read_csv("Data/ChrysoblephusDiet.csv")
+data_raw<-read_csv(here("Data","ChrysoblephusDiet.csv"))
 
 #looking at raw data 
 data_raw 
@@ -14,19 +15,19 @@ data_raw
 #scanning for missing values
 data_raw %>%
   summarise_all(~sum(is.na(.))) %>% 
-  View()
+  print()
 
 #removing the missing values
 
 cleaned_data <- data_raw %>% 
   drop_na() %>%
-  view()
+  print()
 
 #Checking if the above worked 
 
 cleaned_data %>%
   summarise_all(~sum(is.na(.))) %>% 
-  View()
+  print()
 
 
 
