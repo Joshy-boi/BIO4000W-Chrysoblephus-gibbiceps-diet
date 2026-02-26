@@ -9,6 +9,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Joshy-boi/BIO4000W-Chrysoblephus-gibbiceps-diet/HEAD)
+
 
 This repository was made for the UCT Biological Honours programme.
 It centres around a dataset of stomach content analysis data on the diet of the endagered Seabream [*Chrysoblephus gibbiceps*](https://speciesstatus.sanbi.org/assessment/last-assessment/2954/)

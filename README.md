@@ -3,6 +3,8 @@ README
 Joshua Dwyer-Thiem
 2026-02-19
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Joshy-boi/BIO4000W-Chrysoblephus-gibbiceps-diet/HEAD)
+
 This repository was made for the UCT Biological Honours programme. It
 centres around a dataset of stomach content analysis data on the diet of
 the endagered Seabream [*Chrysoblephus
