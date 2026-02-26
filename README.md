@@ -31,7 +31,7 @@ fish were recorded, and stomach contents were analysed. These data can
 be found in the Data folder in my repository along with a metadata pdf
 explaining the meaning of each variable name in the spreadsheet.
 
-The interesting folders in my repositories are:
+The most important folders in my repositories are:
 
 Code: This folder contains my raw code script
 (Chrysoblephus_diet_raw_script), a markdown file of my code
@@ -46,5 +46,8 @@ metadata).
 images: This folder contains the image of Chrysoblephus gibbiceps used
 in this README. This also contains the plots produced in my code
 (Chrysoblephus_diet_clean_code_plots/figure-gfm).
+
+install.r: This file contains all the necessary packages to run my code.
+Please run this before running my code.
 
 Please enjoy your stay in my repo.

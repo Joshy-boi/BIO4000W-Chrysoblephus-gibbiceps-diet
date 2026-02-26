@@ -23,7 +23,7 @@ knitr::include_graphics('images/chrysoblephus gibbiceps pic.jpg')
 
 These data were collected by third year marine biology students over a period of 2 years (2010-2012). Fish samples were provided by Dr Colin Attwood which he in turn acquired from previous research sampling or were donated to the university by commercial fishing companies (this species is sometimes caught as bycatch and the market is heavily restricted). Various morphological characteristics of each individual fish were recorded, and stomach contents were analysed. These data can be found in the Data folder in my repository along with a metadata pdf explaining the meaning of each variable name in the spreadsheet. 
 
-The interesting folders in my repositories are: 
+The most important folders in my repositories are: 
 
 
 Code: This folder contains my raw code script (Chrysoblephus_diet_raw_script), a markdown file of my code (Chrysoblephus_diet_clean_code) and a folder of the figures produced in my analysis (Chrysoblephus_diet_clean_code_plots/figure-gfm). 
@@ -32,7 +32,10 @@ Code: This folder contains my raw code script (Chrysoblephus_diet_raw_script), a
 Data: This folder contains the raw data set (ChrysoblephusDiet), the cleaned data set (cleaned_ChrysoblephusDiet) and a pdf document explaining the variable names in the data sheet (ChrysoblephusDiet metadata).
 
 
-images: This folder contains the image of Chrysoblephus gibbiceps used in this README. This also contains the plots produced in my code (Chrysoblephus_diet_clean_code_plots/figure-gfm). 
+images: This folder contains the image of Chrysoblephus gibbiceps used in this README. This also contains the plots produced in my code (Chrysoblephus_diet_clean_code_plots/figure-gfm).
+
+
+install.r: This file contains all the necessary packages to run my code. Please run this before running my code. 
 
 Please enjoy your stay in my repo.
 
