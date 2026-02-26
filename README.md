@@ -7,30 +7,34 @@ Joshua Dwyer-Thiem
 
 # meta data- who got the data, where the scripts are, different folders put in picture too. multiple figures- do multiple code chunks
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+This repository was made for the UCT Biological Honours programme. It
+centres around a dataset of stomach content analysis data on the diet of
+the endagered Seabream [*Chrysoblephus
+gibbiceps*](https://speciesstatus.sanbi.org/assessment/last-assessment/2954/)
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+The data were collected by third year marine biology students over a
+period of 2 years (2010-2012). Fish samples were provided by Dr Colin
+Attwood which he in turn acquired from previous research sampling or
+were donated to the university by commercial fishing companies (this
+species is sometimes caught as bycatch and the market is heavily
+restricted).
 
 <div class="figure" style="text-align: center">
 
-<img src="images/chrysoblephus gibbiceps pic.jpg" alt="A male Red stumpnose (Chrysoblephus gibbiceps).Distinctive bulbous forehead and red bands clearly visible." width="60%" />
+<img src="images/chrysoblephus gibbiceps pic.jpg" alt="A male Red stumpnose (Chrysoblephus gibbiceps). Distinctive bulbous forehead and red bands clearly visible." width="60%" />
 <p class="caption">
 
-A male Red stumpnose (Chrysoblephus gibbiceps).Distinctive bulbous
+A male Red stumpnose (Chrysoblephus gibbiceps). Distinctive bulbous
 forehead and red bands clearly visible.
 </p>
 
 </div>
 
-## Including Plots
+The data was collected by third year marine biology students over a
+period of 2 years (2010-2012). Fish samples were provided by Dr Colin
+Attwood which he in turn acquired from previous research sampling or
+were donated to the university by commercial fishing companies (this
+species is sometimes caught as bycatch and the market is heavily
+restricted).
 
-You can also embed plots, for example:
-
-![](README_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+Data were uploaded
