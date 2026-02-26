@@ -5,6 +5,10 @@ Joshua Dwyer-Thiem
 
 ## R Markdown
 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Joshy-boi/BIO4000W-Chrysoblephus-gibbiceps-diet/HEAD)
+
+
 # meta data- who got the data, where the scripts are, different folders put in picture too. multiple figures- do multiple code chunks
 
 This repository was made for the UCT Biological Honours programme. It
