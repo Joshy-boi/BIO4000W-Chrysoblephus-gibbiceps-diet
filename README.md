@@ -3,25 +3,10 @@ README
 Joshua Dwyer-Thiem
 2026-02-19
 
-## R Markdown
-
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Joshy-boi/BIO4000W-Chrysoblephus-gibbiceps-diet/HEAD)
-
-
-# meta data- who got the data, where the scripts are, different folders put in picture too. multiple figures- do multiple code chunks
-
 This repository was made for the UCT Biological Honours programme. It
 centres around a dataset of stomach content analysis data on the diet of
 the endagered Seabream [*Chrysoblephus
 gibbiceps*](https://speciesstatus.sanbi.org/assessment/last-assessment/2954/)
-
-The data were collected by third year marine biology students over a
-period of 2 years (2010-2012). Fish samples were provided by Dr Colin
-Attwood which he in turn acquired from previous research sampling or
-were donated to the university by commercial fishing companies (this
-species is sometimes caught as bycatch and the market is heavily
-restricted).
 
 <div class="figure" style="text-align: center">
 
@@ -34,11 +19,30 @@ forehead and red bands clearly visible.
 
 </div>
 
-The data was collected by third year marine biology students over a
+These data were collected by third year marine biology students over a
 period of 2 years (2010-2012). Fish samples were provided by Dr Colin
 Attwood which he in turn acquired from previous research sampling or
 were donated to the university by commercial fishing companies (this
 species is sometimes caught as bycatch and the market is heavily
-restricted).
+restricted). Various morphological characteristics of each individual
+fish were recorded, and stomach contents were analysed. These data can
+be found in the Data folder in my repository along with a metadata pdf
+explaining the meaning of each variable name in the spreadsheet.
 
-Data were uploaded
+The interesting folders in my repositories are:
+
+Code: This folder contains my raw code script
+(Chrysoblephus_diet_raw_script), a markdown file of my code
+(Chrysoblephus_diet_clean_code) and a folder of the figures produced in
+my analysis (Chrysoblephus_diet_clean_code_plots/figure-gfm).
+
+Data: This folder contains the raw data set (ChrysoblephusDiet), the
+cleaned data set (cleaned_ChrysoblephusDiet) and a pdf document
+explaining the variable names in the data sheet (ChrysoblephusDiet
+metadata).
+
+images: This folder contains the image of Chrysoblephus gibbiceps used
+in this README. This also contains the plots produced in my code
+(Chrysoblephus_diet_clean_code_plots/figure-gfm).
+
+Please enjoy your stay in my repo.
